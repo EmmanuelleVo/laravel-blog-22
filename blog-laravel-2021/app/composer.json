@@ -1,0 +1,20 @@
+{
+  "require": {
+    "ramsey/uuid": "^4.2",
+    "cocur/slugify": "^4.1",
+    "ext-pdo": "*",
+    "nesbot/carbon": "^2.57",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.19"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blog\\Models\\": "models/",
+      "Blog\\Controllers\\": "controllers/",
+      "Blog\\Request\\Validators\\": "validators/",
+      "Blog\\ViewComposers\\": "view-composers/"
+    }
+  }
+}
